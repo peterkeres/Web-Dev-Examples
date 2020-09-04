@@ -1,0 +1,36 @@
+
+
+body{
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    border: 20px solid #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.blog_post{
+    padding: 1% 20px;
+}
+
+.blog_post h1{
+    color: #2c3e50;
+    text-transform: capitalize;
+}
+
+.blog_post h3{
+    color: #3498bd;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.blog_post p:nth-of-type(1){
+    border-left: 5px solid #bdc3c7;
+    padding-left: 3px;
+}
+
+.blog_post hr{
+    border: 1px solid #bdc3c7;
+    
+}
+
