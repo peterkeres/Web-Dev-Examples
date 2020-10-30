@@ -1,0 +1,48 @@
+<!-- Name: Peter Keres    Date: 9-1     Point: menu for the JavaJam coffee website    f@ck cancer -->
+
+<!doctype html>
+<html lang = "en">
+
+<head>
+  <title> JavaJam Coffee House Jobs </title>
+  <meta charset = "utf-8" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="javajam.css">
+</head>
+
+<body><div id = "wrapper">
+
+  <header>
+    <h1> JavaJam Coffee House </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href = "index.html"> Home </a></li>
+      <li><a href="menu.html"> Menu </a></li>
+      <li><a href="music.html"> Music </a></li>
+      <li><a href="jobs.html"> Jobs </a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div id ="herojobs"></div>
+    <h2> jobs at javajam </h2>
+    <p>
+      Want to work at javajam? fill out the form below to start your application. Required fields are marked with an asterisk (*).
+     </p>
+
+     <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+       <label for="myName"> *Name: </lable>
+        <input type="text" name="myName" id="myName" required="required">
+         <label for="myEmail"> *E-mail: </lable>
+          <input type="email" name="myEmail" id="myEmail" required="required">
+           <label for="myExperience"> *Experience: </lable>
+            <textarea name="myExperience" id="myExperience" rows="2" cols="20" required="required"></textarea>
+             <input type="submit" value="Apply now" id="mySubmit">
+           </form>
+  </main>
+    <footer>
+         Copyright&copy; 2016 JavaJam Coffee House <br>
+         <a href="mailto:Peter@Keres.com"> Peter@Keres.com </a>
+    </footer>
+  </body>
