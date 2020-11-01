@@ -1,0 +1,138 @@
+<!-- Name: Peter Keres    Date: 9-1     Point: menu for the JavaJam coffee website    f@ck cancer -->
+
+<!doctype html>
+<html lang = "en">
+
+<head>
+  <title> JavaJam Coffee House Menu </title>
+  <meta charset = "utf-8" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="javajam.css">
+
+  <script>
+
+  var counter = 0;
+  var prices = ["3.75","6.54","2.00","3.69","4.00","4.20"];
+  var picture = ["pic1","pic2","pic3","pic4","pic5","pic6"];
+
+
+  function initialize(){
+    var pic1 = ["americano.jpg","americano","215","190"];
+    var pic2 = ["dirtychai.jpg","dirtychai","215","190"];
+    var pic3 = ["latte.jpg","latte","215","190"];
+    var pic4 = ["mocha.jpg","mocha","215","190"];
+    var pic5 = ["cafeaulait.jpg","cafeaulait","215","190"];
+    var pic6 = ["cappuchino.jpg","cappuchino","215","190"];
+
+    picture[0] = pic1;
+    picture[1] = pic2;
+    picture[2] = pic3;
+    picture[3] = pic4;
+    picture[4] = pic5;
+    picture[5] = pic6;
+  }
+
+  function upDate(){
+
+  initialize();
+
+  counter = counter + 1;
+
+  if ( counter > 5){
+    counter = 0;
+  }
+  document.getElementById("parCaption").innerHTML = prices[counter];
+
+  document.getElementById("coffeeImage").setAttribute("src",picture[counter][0]);
+  document.getElementById("coffeeImage").setAttribute("alt",picture[counter][1]);
+  document.getElementById("coffeeImage").setAttribute("height",picture[counter][2]);
+  document.getElementById("coffeeImage").setAttribute("width",picture[counter][3]);
+
+  }
+
+  </script>
+</head>
+<body><div id = "wrapper">
+
+  <header>
+    <h1> JavaJam Coffee House </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href = "index.html"> Home </a></li>
+      <li><a href="menu.html"> Menu </a></li>
+      <li><a href="music.html"> Music </a></li>
+      <li><a href="jobs.html"> Jobs </a></li>
+    </ul>
+
+
+    <img id ="coffeeImage" name ="coffeeImage" src="americano.jpg" alt="Americano" height="215" width="190">
+    <p id="parCaption" style =" text-align:center; color:white">$2.75</p>
+    <input type="button" id ="Next" value="Next" style="margin:0px auto; display:block;" onclick="upDate()">
+  </nav>
+
+  <main>
+    <div id ="heromugs"></div>
+    <h2> Coffee at JavaJam </h2>
+    <p>
+      Indulge in our locally rosted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our Mug Club
+       and get a 10% discount on each cup of coffee you purchase &mdash; ask the varista for details.
+       <a href="#" onmouseover="alert('JavaJam mug club members get a 10% discount on each cup of coffee!');">Mug Club</a>
+     </p>
+
+     <table>
+       <tr>
+         <th> Just Java </th>
+         <td>Regular house blend, decaffeinated coffee, or flavor of the day. <br>
+             Endless Cup $2.00 </td>
+       </tr>
+       <tr>
+         <th>Cafe au Lait
+           </th>
+           <td>House blended coffee infused into a smooth, streamed milk.<br>
+             Single $2.00 Double $3.00
+           </td>
+         </tr>
+         <tr>
+            <th> Iced Cappuccino </th>
+            <td> Sweetend espresso blended with icy-cold milk and served in a chilled glass.<br>
+              single $4.75 Double $5.75
+            </td>
+          </tr>
+          <tr>
+             <th> Americano </th>
+             <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+             price - 3.75$</td>
+           </tr>
+           <tr>
+              <th> Dirty Chai </th>
+              <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+              price - 6.54$</td>
+            </tr>
+            <tr>
+               <th> Latte </th>
+               <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+               price - 2.00$</td>
+             </tr>
+             <tr>
+                <th> Mocha </th>
+                <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+                price - 3.69$</td>
+              </tr>
+              <th> Cafeaulait </th>
+              <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+              price - 4.00$</td>
+            </tr>
+            <th> Cappuchino </th>
+            <td> CAN NOT READ WHAT IT SAYS ON THE PIC IN THE ASSIGMENT FILE
+            price - 4.20$</td>
+          </tr>
+
+       </table>
+
+  </main>
+    <footer>
+         Copyright&copy; 2016 JavaJam Coffee House <br>
+         <a href="mailto:Peter@Keres.com"> Peter@Keres.com </a>
+    </footer>
+  </body>

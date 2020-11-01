@@ -1,0 +1,91 @@
+<!-- Name: Peter Keres    Date: 9-1     Point: menu for the JavaJam coffee website    f@ck cancer -->
+
+<!doctype html>
+<html lang = "en">
+
+<head>
+  <title> JavaJam Coffee House Menu </title>
+  <meta charset = "utf-8" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="javajam.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+  $("#buttonfoot").click(function(){
+      $("#panel").slideToggle("slow");
+  });
+  });
+
+  </script>
+</head>
+
+<body><div id = "wrapper">
+
+  <header>
+    <h1> JavaJam Coffee House </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href = "index.html"> Home </a></li>
+      <li><a href="menu.html"> Menu </a></li>
+      <li><a href="music.html"> Music </a></li>
+      <li><a href="jobs.html"> Jobs </a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div id ="heromugs"></div>
+    <h2> Coffee at JavaJam </h2>
+    <p>
+      Indulge in our locally rosted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our Mug Club
+       and get a 10% discount on each cup of coffee you purchase &mdash; ask the varista for details.
+       <a href="#" onmouseover="alert('JavaJam mug club members get a 10% discount on each cup of coffee!');">Mug Club</a>
+     </p>
+
+     <table>
+       <tr>
+         <th> Just Java </th>
+         <td>Regular house blend, decaffeinated coffee, or flavor of the day. <br>
+             Endless Cup $2.00 </td>
+       </tr>
+       <tr>
+         <th>Cafe au Lait
+           </th>
+           <td>House blended coffee infused into a smooth, streamed milk.<br>
+             Single $2.00 Double $3.00
+           </td>
+         </tr>
+         <tr>
+            <th> Iced Cappuccino </th>
+            <td> Sweetend espresso blended with icy-cold milk and served in a chilled glass.<br>
+              single $4.75 Double $5.75
+            </td>
+          </tr>
+
+       </table>
+
+  </main>
+    <footer>
+         Copyright&copy; 2016 JavaJam Coffee House <br>
+         <a href="mailto:Peter@Keres.com"> Peter@Keres.com </a>
+
+
+         <div id="buttonfoot"> click to see chart </div>
+         <div id="panle">
+           <table>
+             <tr>
+               <td> <img src="americano.jpg" alt="americano" height="200" width="200" ><br> 2.00$</td>
+               <td> <img src="cafeaulait.jpg" alt="cafeaulait" height="200" width="200" ><br> 2.50$ </td>
+               <td> <img src="cappuchino.jpg" alt="cappuchino" height="200" width="200" ><br> 3.00$ </td>
+             </tr>
+             <tr>
+                <td> <img src="dirtychai.jpg" alt="dirtychai" height="200" width="200" ><br> 3.50$ </td>
+                <td> <img src="latte.jpg" alt="latte" height="200" width="200" ><br> 4.50$ </td>
+                <td> <img src="mocha.jpg" alt="mocha" height="200" width="200" ><br> 5.50$ </td>
+            </tr>
+          </table>
+         </div>
+
+    </footer>
+  </body>

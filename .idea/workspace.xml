@@ -20,56 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e238fc47-ca10-4bb8-9ee2-6c0a082fb25e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/greg.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/greg.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/background.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/greg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/gregthumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/heroguitar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/herojobs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/heromugs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/heroroad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/javajamlogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/javajammini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/melanie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/melaniethumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/mugs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/images/windingroad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/javajam.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/jobs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/melanie.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/melanie.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam8/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/greg.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/greg.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/background.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/greg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/gregthumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/heroguitar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/herojobs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/heromugs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/heroroad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/javajamlogo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/javajammini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/melanie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/melaniethumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/mugs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/images/windingroad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/javajam.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/jobs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/melanie.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/melanie.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/JavaJam9/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/PartC/fishing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/PartC/fishing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming 5/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet programming 6/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +66,7 @@
       <workItem from="1604071459071" duration="1631000" />
       <workItem from="1604076786879" duration="3000" />
       <workItem from="1604076822903" duration="4855000" />
-      <workItem from="1604257857011" duration="3798000" />
+      <workItem from="1604257857011" duration="4099000" />
     </task>
     <servers />
   </component>
