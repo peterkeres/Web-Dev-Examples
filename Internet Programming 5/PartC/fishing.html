@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title Goes Here</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fishing.css">
+
+    <script>
+
+        function CalcTotal(){
+
+
+            var fishPrice = document.getElementById("fishPrice").value;
+            var tacklePrice = document.getElementById("tacklePrice").value;
+
+            var fishAmount = document.getElementById("fishAmount").value;
+            var tackleAmount = document.getElementById("tackleAmount").value;
+
+            var fishTotal = parseFloat(fishPrice) * parseInt(fishAmount);
+            var tackleTotal = parseFloat(tacklePrice) * parseInt(tackleAmount);
+
+
+            document.getElementById("total").value = fishTotal + tackleTotal;
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <h1> Fishing Store Order Form </h1>
+    <br>
+    <p> We rent all our fishing equipment by the week. </p>
+
+    <table >
+      <tr>
+        <th> Product Name </th>
+        <th> Price </th>
+        <th> Quantity </th>
+      </tr>
+      <tr>
+        <td> 1 Fishing rod and reel </td>
+        <td> <input type="text" name="fishPrice" id="fishPrice" value="7.99"></td>
+        <td> <select id="fishAmount">
+              <option value="0" selected="selected">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td> 1 Tackle Box </td>
+        <td> <input type="text" name="tacklePrice" id="tacklePrice" value="2.55"></td>
+        <td> <select id="tackleAmount">
+              <option value="0" selected="selected">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+        </td>
+      </tr>
+    </table>
+
+    <button type="button" onclick="CalcTotal();"> Calcaulate your order </button>
+
+
+
+    <p> thank you for your purchase. </p>
+    <p> your total is: </p>
+
+    <input type="text" name="total" id="total" value="">
+
+</body>
+</html>
