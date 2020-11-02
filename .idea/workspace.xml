@@ -20,7 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e238fc47-ca10-4bb8-9ee2-6c0a082fb25e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Internet programming 6/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/MidTerm Exam F18.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/about.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/arts.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/athlete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/construction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/eggshell.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/gear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/leisure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/nomad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/skibar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/travel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/images/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/nomad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/nomadLtd PK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Internet Programming Midterm/underConstruction PK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Internet Programming Midterm" />
+      <recent name="$PROJECT_DIR$/Internet programming 6" />
       <recent name="$PROJECT_DIR$/Internet Programming 5" />
       <recent name="$PROJECT_DIR$/Internet Programming 4" />
       <recent name="$PROJECT_DIR$/Internet Programming 3" />
-      <recent name="$PROJECT_DIR$/Internet Programming 2" />
-      <recent name="$PROJECT_DIR$/Internet Programming 1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +83,7 @@
       <workItem from="1604071459071" duration="1631000" />
       <workItem from="1604076786879" duration="3000" />
       <workItem from="1604076822903" duration="4855000" />
-      <workItem from="1604257857011" duration="4099000" />
+      <workItem from="1604257857011" duration="8266000" />
     </task>
     <servers />
   </component>
