@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title> The DC Bench "order" </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="DC%20bench.css">
+
+  <script>
+  function validateForm() {
+      var a = document.forms["myForm"]["fname"].value;
+      var b = document.forms["myForm"]["email"].value;
+      var c = document.forms["myForm"]["address"].value;
+      var d = document.forms["myForm"]["tel"].value;
+      var e = document.forms["myForm"]["amount"].value;
+      if (a == "") {
+          alert("Name must be filled out");
+          return false;
+      }
+      if (b == "") {
+          alert("Email must be filled out");
+          return false;
+      }
+      if (c == "") {
+          alert("Delivery Address must be filled out");
+          return false;
+      }
+      if (d == "") {
+          alert("Telephone must be filled out");
+          return false;
+      }
+      if (e < 1) {
+          alert("Amount of Benches must be filled out");
+          return false;
+      }
+  }
+  </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+
+
+    <header>
+      <h1> Order Now </h1>
+    </header>
+
+
+    <nav>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product Details</a></li>
+        <li><a href="order.html">Order Page</a></li>
+        <li><a href="testimonals.html">Testimonals</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+  	   </ul>
+    </nav>
+
+
+    <div id="testimonals">
+      "It was such a revenue booster for our business"
+      <br>
+      -James Tom
+      <br>
+      <br>
+      "I plan on adding a DC bench to every one of my restaurant"
+      <br>
+      -James Mack
+    </div>
+
+
+    <main>
+      <h2> ORDER FORM </h2>
+      <form name="myForm" action="/action_page.php"
+      onsubmit="return validateForm()" method="post">
+      Your name: <input type="text" name="fname">
+      <br>
+      Your email: <input type="email" name="email">
+      <br>
+      Delivery Address <input type="text" name="address">
+      <br>
+      telephone: <input type="tel" name="tel">
+      <br>
+      Amount of Benches: <input type="number" name="amount">
+      <br>
+      Any special instructions below:
+      <br>
+      <textarea name="message" rows="8" cols="80">
+      </textarea>
+      <input type="submit" value="Submit">
+      </form>
+
+    </main>
+
+
+    <footer>
+      Copyright&copy; 2018 The DC Bench <br>
+           <a href="mailto:Peter@Keres.com"> Peter@Keres.com </a>
+           this page was last modified on:
+           <script>
+             document.write(document.lastModified);
+           </script>
+           <br>
+           Current Date:
+           <script>
+           var currentdate = new Date();
+           document.write(currentdate);
+         </script>
+    </footer>
+
+
+</div>
+</body>
+</html>

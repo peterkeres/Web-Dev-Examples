@@ -1,0 +1,54 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #E9DFFB;
+}
+#wrapper { background-color: #5A18C9;
+           color: #190934;
+           width: 80%;
+		       margin: auto;
+           min-width: 850px;
+		       max-width: 1200px;
+}
+
+ #testimonals {
+       float: left;
+   	   width: 150px;
+   	   letter-spacing:0.1em;
+   	   font-weight: bold;
+ }
+
+main { display: block;
+       padding: 3em;
+       background-color: #E9DFFB;
+       color: #000000;
+       margin-left: 155px;
+}
+header { background-color: #905BEC;
+        color: #300D6E;
+        font-size: 150%;
+        padding: 10px 10px 10px 30px;
+
+}
+h2 { color: #300D6E;
+     font-family: arial, sans-serif;
+}
+
+
+
+footer {font-size:70%;
+         text-align: center;
+		     clear: right;
+         padding-bottom:20px;
+         background-color: #190934;
+         color: #905BEC;
+
+}
+nav{
+  text-align: center;
+}
+nav ul { list-style-type: none;}
+nav li {  display: inline;
+          padding: 15px;
+          background-color: #190934;}
+nav a  { text-decoration: none;
+         padding-right: 10px;
+         color: #905BEC;}
