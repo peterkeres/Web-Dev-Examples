@@ -20,24 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e238fc47-ca10-4bb8-9ee2-6c0a082fb25e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/DC bench.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/Sitemap.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/about us.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/contact.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/home.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/order.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/product.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/design_documents/wireframe/testimonals.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/images/DC_Bench_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/images/IMG_5451.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/images/IMG_5452.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Internet Programming Final/testimonals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +66,7 @@
       <workItem from="1604071459071" duration="1631000" />
       <workItem from="1604076786879" duration="3000" />
       <workItem from="1604076822903" duration="4855000" />
-      <workItem from="1604257857011" duration="10824000" />
+      <workItem from="1604257857011" duration="11076000" />
     </task>
     <servers />
   </component>
