@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#Container{
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: black 1px dashed;
+    flex-wrap: wrap;
+}
+
+#Row{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.Hide{
+    display: none;
+}
+
+.showOldBtn{
+    display: inline;
+    margin-right: 1rem;
+}
+
+
+h1{
+    text-align: center; 
+    font-size: 2rem;
+}
+
+button{
+    margin-bottom: 1rem;
+}
