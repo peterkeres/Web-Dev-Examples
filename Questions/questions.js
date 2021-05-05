@@ -1,3 +1,5 @@
+// asking some questions in nodeJS
+
 const quesitons = [
     "what is your name?",
     "What would you rather be doing?",
